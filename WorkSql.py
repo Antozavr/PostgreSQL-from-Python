@@ -106,7 +106,7 @@ def find_client(conn, first_name=None, last_name=None, email=None, phone=None):
 
 
 if __name__ == '__main__':
-    with psycopg2.connect(database="netology_db", user="postgres", password="USHxv246") as conn:
+    with psycopg2.connect(database="netology_db", user="postgres", password="") as conn:
         with conn.cursor() as cur:
             # delete_db(conn)
             # create_db(conn)
